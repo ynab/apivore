@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files      += Dir['data/custom_schemata/*.json']
   s.homepage    = 'http://github.com/westfieldlabs/apivore'
   s.licenses    = ['Apache 2.0']
-  s.required_ruby_version = '>= 2.6.0'
+  s.required_ruby_version = '>= 3.0.0'
 
   s.add_runtime_dependency 'json-schema', '~> 2.5'
   s.add_runtime_dependency 'rspec', '>= 3'
